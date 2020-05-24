@@ -22,3 +22,7 @@ System zrealizowany w formie aplikacji webowej powinien uwzględniać możliwoś
 Implementacja powinna uzględniać responsywny interfejs. Do zapewnienia anonimowości należy wykorzystać techniki kryptograficzne (funkcje skrótu) oraz metody generowania tokenów.
 
 Rekomedowane jest wykorzystanie ogólnodostępnych bibliotek programistycznych.
+
+## Licencja
+
+Projekt udostępniony na licencji MIT
