@@ -4,8 +4,8 @@ System umożliwiający anonimowe ankiety/głosowanie. Repozytorium w ramach prze
 
 
 
-Projekt i implemetacja systemu webowego umożliwiającego głosowanie (lub ankietowanie)
-w sposób umożliwiający zachowanie anonimowości użytkowników.
+
+## Wymagania
 
 System zrealizowany w formie aplikacji webowej powinien uwzględniać możliwość oddania głosu lub wyrażenia opinii w taki sposób, aby realizować następujące funkcje:
 
