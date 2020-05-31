@@ -25,9 +25,12 @@ Rekomedowane jest wykorzystanie ogólnodostępnych bibliotek programistycznych.
 
 ## Documentation
 
-Do prawidłowego działania aplikacji wymagane jest posiadanie/instalacja serwera-WWW.
+Do prawidłowego działania aplikacji wymagane jest posiadanie/instalacja serwera WWW.
+
 Polecam zainstalować XAMPP-a jest to darmowy pakiet serwera WWW dla PHP dostępny pod https://www.apachefriends.org/pl/index.html. 
 
+Po zainstalowaniu i uruchomieniu aplikacji należy uruchomić usługę Apache oraz MySql
+![GitHub Logo](/images/xampp.png)
 ## Licencja
 
 Projekt udostępniony na licencji MIT
