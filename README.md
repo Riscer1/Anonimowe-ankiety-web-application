@@ -34,6 +34,8 @@ Po zainstalowaniu i uruchomieniu aplikacji należy uruchomić usługę Apache or
 
 Wszystkie pliki z folderu /app należy umieścić w folderze *htdocs* przykładowa ścieżka: *C:\xampp\htdocs\STRONA*
 
+###Import bazy danych
+
 ## Licencja
 
 Projekt udostępniony na licencji MIT
