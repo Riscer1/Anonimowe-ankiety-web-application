@@ -23,6 +23,11 @@ Implementacja powinna uzględniać responsywny interfejs. Do zapewnienia anonimo
 
 Rekomedowane jest wykorzystanie ogólnodostępnych bibliotek programistycznych.
 
+## Documentation
+
+Do prawidłowego działania aplikacji wymagane jest posiadanie/instalacja serwera WWW.
+Polecam zainstalować XAMPP-a jest to darmowy pakiet serwera WWW dla PHP dostępny pod https://www.apachefriends.org/pl/index.html. 
+
 ## Licencja
 
 Projekt udostępniony na licencji MIT
