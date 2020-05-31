@@ -46,7 +46,7 @@ Aby zaimportować bazę danych należy przejść do zakładki *IMPORT* oraz wybr
 
 Parametry łączenia z bazą danych dostępne są w pliku [/app/config.php](/app/config.php)
 
-<addr> 
+```
 <?
 	$host = 'localhost';
 	$db_user = 'root';
@@ -54,7 +54,7 @@ Parametry łączenia z bazą danych dostępne są w pliku [/app/config.php](/app
 	$db_name = 'projekt';
 
 ?>
-</addr>
+```
 
 ## Licencja
 
