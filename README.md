@@ -31,6 +31,9 @@ Polecam zainstalować XAMPP-a jest to darmowy pakiet serwera WWW dla PHP dostęp
 
 Po zainstalowaniu i uruchomieniu aplikacji należy uruchomić usługę Apache oraz MySql
 ![GitHub Logo](/images/xampp.png)
+
+Wszystkie pliki z folderu /app należy umieścić w folderze *htdocs* przykładowa ścieżka: *C:\xampp\htdocs\STRONA*
+
 ## Licencja
 
 Projekt udostępniony na licencji MIT
