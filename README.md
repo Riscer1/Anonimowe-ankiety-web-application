@@ -37,8 +37,8 @@ Wszystkie pliki z folderu /app należy umieścić w folderze *htdocs* przykłado
 #### Import bazy danych
 
 Pod adresem: http://localhost/phpmyadmin/index.php mamy dostęp do naszego serwera WWW.
-Aby zaimportować bazę danych należy przejść do zakładki *IMPORT* oraz wybrać plik [Contribution guidelines for this project](/database/projekt.sql)
-
+Aby zaimportować bazę danych należy przejść do zakładki *IMPORT* oraz wybrać plik [projekt.sql](/database/projekt.sql)
+![GitHub Logo](/images/import.png)
 ## Licencja
 
 Projekt udostępniony na licencji MIT
