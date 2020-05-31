@@ -48,10 +48,10 @@ Parametry łączenia z bazą danych dostępne są w pliku [/app/config.php](/app
 
 ```
 <?
-	$host = 'localhost';
-	$db_user = 'root';
-	$db_password = '';
-	$db_name = 'projekt';
+	$host = 'localhost'; //adres serwera
+	$db_user = 'root';  //nazwa użytkownika
+	$db_password = ''; //hasło użytkownika
+	$db_name = 'projekt'; //nazwa bazy danych
 
 ?>
 ```
