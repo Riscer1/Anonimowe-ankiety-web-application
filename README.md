@@ -30,6 +30,7 @@ Do prawidłowego działania aplikacji wymagane jest posiadanie/instalacja serwer
 Polecam zainstalować XAMPP-a jest to darmowy pakiet serwera WWW dla PHP dostępny pod https://www.apachefriends.org/pl/index.html. 
 
 Po zainstalowaniu i uruchomieniu aplikacji należy uruchomić usługę Apache oraz MySql
+
 ![GitHub Logo](/images/xampp.png)
 
 Wszystkie pliki z folderu /app należy umieścić w folderze *htdocs* przykładowa ścieżka: *C:\xampp\htdocs\STRONA*
@@ -38,7 +39,10 @@ Wszystkie pliki z folderu /app należy umieścić w folderze *htdocs* przykłado
 
 Pod adresem: http://localhost/phpmyadmin/index.php mamy dostęp do naszego serwera WWW.
 Aby zaimportować bazę danych należy przejść do zakładki *IMPORT* oraz wybrać plik [projekt.sql](/database/projekt.sql)
+
 ![GitHub Logo](/images/import.png)
+
+
 ## Licencja
 
 Projekt udostępniony na licencji MIT
