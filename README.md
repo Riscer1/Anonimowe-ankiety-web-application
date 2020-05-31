@@ -42,6 +42,19 @@ Aby zaimportować bazę danych należy przejść do zakładki *IMPORT* oraz wybr
 
 ![GitHub Logo](/images/import.png)
 
+#### Zmiana danych łączenia a bazą danych
+
+Parametry łączenia z bazą danych dostępne są w pliku [/app/config.php](/app/config.php)
+
+<addr> 
+<?
+	$host = 'localhost';
+	$db_user = 'root';
+	$db_password = '';
+	$db_name = 'projekt';
+
+?>
+</addr>
 
 ## Licencja
 
