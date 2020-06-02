@@ -56,6 +56,18 @@ Parametry łączenia z bazą danych dostępne są w pliku [/app/config.php](/app
 ?>
 ```
 
+## Funkcjonalności aplikacji
+
+Dostęp do aplikacji możliwy jest tylko po utworzeniu konta i zalogowania się do serwisu. 
+Możliwe jest logowanie jako administrator(login:admin password:testadmin) lub zwykły użytkownik. 
+Użytkownik posiada możliwości takie jak:
+•wypełnainie ankiet,
+•sprawdzenie czy jedgo dane są zapisane w bazie.
+Konto administratora oprócz podstawowych funkcjonalności jakie posiada zwykły użytkownik umożliwia:
+•tworzenie nowych ankiet,
+•dodawanie pytań i odpowiedzi do ankiet,
+•sprawdzenie którzy użytkownicy wypełnili ankiety.
+
 ## Licencja
 
 Projekt udostępniony na licencji MIT
