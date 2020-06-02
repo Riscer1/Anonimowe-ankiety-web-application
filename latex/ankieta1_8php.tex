@@ -1,0 +1,40 @@
+\hypertarget{ankieta1_8php}{}\doxysection{ankieta1.\+php File Reference}
+\label{ankieta1_8php}\index{ankieta1.php@{ankieta1.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ankieta1_8php_a460aa35217a6014f5f004c48f3c18d11}{if}} ( \$\+\_\+\+S\+E\+S\+S\+I\+ON\mbox{[} \textquotesingle{}user\textquotesingle{}\mbox{]}==\textquotesingle{}Admin\textquotesingle{})
+\item 
+\mbox{\hyperlink{ankieta1_8php_a0debe10448ec56a57b5509648408a549}{\$con}} =mysqli\+\_\+connect(\char`\"{}localhost\char`\"{},\char`\"{}root\char`\"{},\char`\"{}\char`\"{},\char`\"{}projekt\char`\"{}) or die(mysqli\+\_\+error())
+\item 
+\mbox{\hyperlink{ankieta1_8php_a7359f3ea32073ea20d3176243cb5f86d}{\$z}} =(\char`\"{}select pytania\+\_\+id,pytania\+\_\+tresc,typpytania from pytania where ankiety\+\_\+id=\char`\"{}.\$\+\_\+\+S\+E\+S\+S\+I\+ON\mbox{[}\textquotesingle{}ankiety\+\_\+id\textquotesingle{}\mbox{]}.\char`\"{};\char`\"{})
+\item 
+\mbox{\hyperlink{ankieta1_8php_a112ef069ddc0454086e3d1e6d8d55d07}{\$result}} = mysqli\+\_\+query(\$con,\$z)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{ankieta1_8php_a0debe10448ec56a57b5509648408a549}\label{ankieta1_8php_a0debe10448ec56a57b5509648408a549}} 
+\index{ankieta1.php@{ankieta1.php}!\$con@{\$con}}
+\index{\$con@{\$con}!ankieta1.php@{ankieta1.php}}
+\doxysubsubsection{\texorpdfstring{\$con}{$con}}
+{\footnotesize\ttfamily \$con =mysqli\+\_\+connect(\char`\"{}localhost\char`\"{},\char`\"{}root\char`\"{},\char`\"{}\char`\"{},\char`\"{}projekt\char`\"{}) or die(mysqli\+\_\+error())}
+
+\mbox{\Hypertarget{ankieta1_8php_a112ef069ddc0454086e3d1e6d8d55d07}\label{ankieta1_8php_a112ef069ddc0454086e3d1e6d8d55d07}} 
+\index{ankieta1.php@{ankieta1.php}!\$result@{\$result}}
+\index{\$result@{\$result}!ankieta1.php@{ankieta1.php}}
+\doxysubsubsection{\texorpdfstring{\$result}{$result}}
+{\footnotesize\ttfamily \$result = mysqli\+\_\+query(\$con,\$z)}
+
+\mbox{\Hypertarget{ankieta1_8php_a7359f3ea32073ea20d3176243cb5f86d}\label{ankieta1_8php_a7359f3ea32073ea20d3176243cb5f86d}} 
+\index{ankieta1.php@{ankieta1.php}!\$z@{\$z}}
+\index{\$z@{\$z}!ankieta1.php@{ankieta1.php}}
+\doxysubsubsection{\texorpdfstring{\$z}{$z}}
+{\footnotesize\ttfamily \$z =(\char`\"{}select pytania\+\_\+id,pytania\+\_\+tresc,typpytania from pytania where ankiety\+\_\+id=\char`\"{}.\$\+\_\+\+S\+E\+S\+S\+I\+ON\mbox{[}\textquotesingle{}ankiety\+\_\+id\textquotesingle{}\mbox{]}.\char`\"{};\char`\"{})}
+
+\mbox{\Hypertarget{ankieta1_8php_a460aa35217a6014f5f004c48f3c18d11}\label{ankieta1_8php_a460aa35217a6014f5f004c48f3c18d11}} 
+\index{ankieta1.php@{ankieta1.php}!if@{if}}
+\index{if@{if}!ankieta1.php@{ankieta1.php}}
+\doxysubsubsection{\texorpdfstring{if}{if}}
+{\footnotesize\ttfamily if(\$\+\_\+\+S\+E\+S\+S\+I\+ON\mbox{[}\textquotesingle{}user\textquotesingle{}\mbox{]}==\textquotesingle{}Admin\textquotesingle{})}
+

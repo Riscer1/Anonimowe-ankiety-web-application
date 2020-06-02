@@ -1,0 +1,54 @@
+\hypertarget{zaloguj_8php}{}\doxysection{zaloguj.\+php File Reference}
+\label{zaloguj_8php}\index{zaloguj.php@{zaloguj.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{zaloguj_8php_ac2baeba7afe33409fee429c7d64d359d}{if}} ((!isset( \$\+\_\+\+P\+O\+ST\mbox{[} \textquotesingle{}login\textquotesingle{}\mbox{]}))$\vert$$\vert$(!isset( \$\+\_\+\+P\+O\+ST\mbox{[} \textquotesingle{}haslo\textquotesingle{}\mbox{]})))
+\item 
+\mbox{\hyperlink{zaloguj_8php_a8cd3291fe6637f2fa205d6aa84987e5f}{\$polaczenie}} = new mysqli(\$host, \textquotesingle{}root\textquotesingle{} , \textquotesingle{}\textquotesingle{} , \textquotesingle{}projekt\textquotesingle{})
+\item 
+\mbox{\hyperlink{zaloguj_8php_ac2baeba7afe33409fee429c7d64d359d}{if}}(\$polaczenie-\/$>$connect\+\_\+errno!=0) \mbox{\hyperlink{zaloguj_8php_af1bb580c88de09a70e7168a8f82d1287}{else}}
+\item 
+\mbox{\hyperlink{zaloguj_8php_a77e39440571afe5e168c7fddb5f5c1ca}{\$haslo}} = \$\+\_\+\+P\+O\+ST\mbox{[}\textquotesingle{}haslo\textquotesingle{}\mbox{]}
+\item 
+\mbox{\hyperlink{zaloguj_8php_afc31993e855f9631572adfedcfe6f34b}{\$login}} = htmlentities(\$login, E\+N\+T\+\_\+\+Q\+U\+O\+T\+ES, \char`\"{}U\+TF-\/8\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{zaloguj_8php_a77e39440571afe5e168c7fddb5f5c1ca}\label{zaloguj_8php_a77e39440571afe5e168c7fddb5f5c1ca}} 
+\index{zaloguj.php@{zaloguj.php}!\$haslo@{\$haslo}}
+\index{\$haslo@{\$haslo}!zaloguj.php@{zaloguj.php}}
+\doxysubsubsection{\texorpdfstring{\$haslo}{$haslo}}
+{\footnotesize\ttfamily \$haslo = \$\+\_\+\+P\+O\+ST\mbox{[}\textquotesingle{}haslo\textquotesingle{}\mbox{]}}
+
+\mbox{\Hypertarget{zaloguj_8php_afc31993e855f9631572adfedcfe6f34b}\label{zaloguj_8php_afc31993e855f9631572adfedcfe6f34b}} 
+\index{zaloguj.php@{zaloguj.php}!\$login@{\$login}}
+\index{\$login@{\$login}!zaloguj.php@{zaloguj.php}}
+\doxysubsubsection{\texorpdfstring{\$login}{$login}}
+{\footnotesize\ttfamily \$login = htmlentities(\$login, E\+N\+T\+\_\+\+Q\+U\+O\+T\+ES, \char`\"{}U\+TF-\/8\char`\"{})}
+
+\mbox{\Hypertarget{zaloguj_8php_a8cd3291fe6637f2fa205d6aa84987e5f}\label{zaloguj_8php_a8cd3291fe6637f2fa205d6aa84987e5f}} 
+\index{zaloguj.php@{zaloguj.php}!\$polaczenie@{\$polaczenie}}
+\index{\$polaczenie@{\$polaczenie}!zaloguj.php@{zaloguj.php}}
+\doxysubsubsection{\texorpdfstring{\$polaczenie}{$polaczenie}}
+{\footnotesize\ttfamily \$polaczenie = new mysqli(\$host, \textquotesingle{}root\textquotesingle{} , \textquotesingle{}\textquotesingle{} , \textquotesingle{}projekt\textquotesingle{})}
+
+\mbox{\Hypertarget{zaloguj_8php_af1bb580c88de09a70e7168a8f82d1287}\label{zaloguj_8php_af1bb580c88de09a70e7168a8f82d1287}} 
+\index{zaloguj.php@{zaloguj.php}!else@{else}}
+\index{else@{else}!zaloguj.php@{zaloguj.php}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily \mbox{\hyperlink{zaloguj_8php_ac2baeba7afe33409fee429c7d64d359d}{if}} ( \$polaczenie-\/$>$connect\+\_\+errno!=0) else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{        \mbox{\hyperlink{zaloguj_8php_afc31993e855f9631572adfedcfe6f34b}{\$login}} = \$\_POST[\textcolor{stringliteral}{'login'}]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{zaloguj_8php_ac2baeba7afe33409fee429c7d64d359d}\label{zaloguj_8php_ac2baeba7afe33409fee429c7d64d359d}} 
+\index{zaloguj.php@{zaloguj.php}!if@{if}}
+\index{if@{if}!zaloguj.php@{zaloguj.php}}
+\doxysubsubsection{\texorpdfstring{if}{if}}
+{\footnotesize\ttfamily if((!isset(\$\+\_\+\+P\+O\+ST\mbox{[}\textquotesingle{}login\textquotesingle{}\mbox{]}))$\vert$$\vert$(!isset(\$\+\_\+\+P\+O\+ST\mbox{[}\textquotesingle{}haslo\textquotesingle{}\mbox{]})))}
+
