@@ -23,7 +23,7 @@ Implementacja powinna uzględniać responsywny interfejs. Do zapewnienia anonimo
 
 Rekomedowane jest wykorzystanie ogólnodostępnych bibliotek programistycznych.
 
-## Documentation
+## Dokumentacja
 
 Do prawidłowego działania aplikacji wymagane jest posiadanie/instalacja serwera WWW.
 
