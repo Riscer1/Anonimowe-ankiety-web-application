@@ -22,17 +22,29 @@
 \doxysubsubsection{\texorpdfstring{\$haslo}{$haslo}}
 {\footnotesize\ttfamily \$haslo = \$\+\_\+\+P\+O\+ST\mbox{[}\textquotesingle{}haslo\textquotesingle{}\mbox{]}}
 
+haslo użytkownika 
+
+Definition at line 32 of file zaloguj.\+php.
+
 \mbox{\Hypertarget{zaloguj_8php_afc31993e855f9631572adfedcfe6f34b}\label{zaloguj_8php_afc31993e855f9631572adfedcfe6f34b}} 
 \index{zaloguj.php@{zaloguj.php}!\$login@{\$login}}
 \index{\$login@{\$login}!zaloguj.php@{zaloguj.php}}
 \doxysubsubsection{\texorpdfstring{\$login}{$login}}
 {\footnotesize\ttfamily \$login = htmlentities(\$login, E\+N\+T\+\_\+\+Q\+U\+O\+T\+ES, \char`\"{}U\+TF-\/8\char`\"{})}
 
+login użytkownika 
+
+Definition at line 37 of file zaloguj.\+php.
+
 \mbox{\Hypertarget{zaloguj_8php_a8cd3291fe6637f2fa205d6aa84987e5f}\label{zaloguj_8php_a8cd3291fe6637f2fa205d6aa84987e5f}} 
 \index{zaloguj.php@{zaloguj.php}!\$polaczenie@{\$polaczenie}}
 \index{\$polaczenie@{\$polaczenie}!zaloguj.php@{zaloguj.php}}
 \doxysubsubsection{\texorpdfstring{\$polaczenie}{$polaczenie}}
 {\footnotesize\ttfamily \$polaczenie = new mysqli(\$host, \textquotesingle{}root\textquotesingle{} , \textquotesingle{}\textquotesingle{} , \textquotesingle{}projekt\textquotesingle{})}
+
+Połączenie z bazą danych 
+
+Definition at line 18 of file zaloguj.\+php.
 
 \mbox{\Hypertarget{zaloguj_8php_af1bb580c88de09a70e7168a8f82d1287}\label{zaloguj_8php_af1bb580c88de09a70e7168a8f82d1287}} 
 \index{zaloguj.php@{zaloguj.php}!else@{else}}
@@ -46,9 +58,17 @@
 \DoxyCodeLine{        \mbox{\hyperlink{zaloguj_8php_afc31993e855f9631572adfedcfe6f34b}{\$login}} = \$\_POST[\textcolor{stringliteral}{'login'}]}
 
 \end{DoxyCode}
+Nie udane połączenie z bazą 
+
+Definition at line 26 of file zaloguj.\+php.
+
 \mbox{\Hypertarget{zaloguj_8php_ac2baeba7afe33409fee429c7d64d359d}\label{zaloguj_8php_ac2baeba7afe33409fee429c7d64d359d}} 
 \index{zaloguj.php@{zaloguj.php}!if@{if}}
 \index{if@{if}!zaloguj.php@{zaloguj.php}}
 \doxysubsubsection{\texorpdfstring{if}{if}}
 {\footnotesize\ttfamily if((!isset(\$\+\_\+\+P\+O\+ST\mbox{[}\textquotesingle{}login\textquotesingle{}\mbox{]}))$\vert$$\vert$(!isset(\$\+\_\+\+P\+O\+ST\mbox{[}\textquotesingle{}haslo\textquotesingle{}\mbox{]})))}
+
+kontrola sesji uzytwkonika 
+
+Definition at line 7 of file zaloguj.\+php.
 

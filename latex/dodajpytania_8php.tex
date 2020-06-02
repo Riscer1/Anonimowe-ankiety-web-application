@@ -22,11 +22,19 @@
 \doxysubsubsection{\texorpdfstring{\$con}{$con}}
 {\footnotesize\ttfamily \$con =mysqli\+\_\+connect(\char`\"{}localhost\char`\"{},\char`\"{}root\char`\"{},\char`\"{}\char`\"{},\char`\"{}projekt\char`\"{}) or die(mysqli\+\_\+error())}
 
+Połączenie z bazą danych 
+
+Definition at line 91 of file dodajpytania.\+php.
+
 \mbox{\Hypertarget{dodajpytania_8php_a112ef069ddc0454086e3d1e6d8d55d07}\label{dodajpytania_8php_a112ef069ddc0454086e3d1e6d8d55d07}} 
 \index{dodajpytania.php@{dodajpytania.php}!\$result@{\$result}}
 \index{\$result@{\$result}!dodajpytania.php@{dodajpytania.php}}
 \doxysubsubsection{\texorpdfstring{\$result}{$result}}
 {\footnotesize\ttfamily \$result = mysqli\+\_\+query(\$con,\$z)}
+
+Wykoannie zapytania 
+
+Definition at line 99 of file dodajpytania.\+php.
 
 \mbox{\Hypertarget{dodajpytania_8php_a7359f3ea32073ea20d3176243cb5f86d}\label{dodajpytania_8php_a7359f3ea32073ea20d3176243cb5f86d}} 
 \index{dodajpytania.php@{dodajpytania.php}!\$z@{\$z}}
@@ -34,15 +42,27 @@
 \doxysubsubsection{\texorpdfstring{\$z}{$z}}
 {\footnotesize\ttfamily \$z =(\char`\"{}select ankiety\+\_\+id,ankiety\+\_\+nazwa from ankiety;\char`\"{})}
 
+Zapytanie do bazy wyszukjace ankiety 
+
+Definition at line 95 of file dodajpytania.\+php.
+
 \mbox{\Hypertarget{dodajpytania_8php_a460aa35217a6014f5f004c48f3c18d11}\label{dodajpytania_8php_a460aa35217a6014f5f004c48f3c18d11}} 
 \index{dodajpytania.php@{dodajpytania.php}!if@{if}}
 \index{if@{if}!dodajpytania.php@{dodajpytania.php}}
 \doxysubsubsection{\texorpdfstring{if}{if}}
 {\footnotesize\ttfamily if(\$\+\_\+\+S\+E\+S\+S\+I\+ON\mbox{[}\textquotesingle{}user\textquotesingle{}\mbox{]}==\textquotesingle{}Admin\textquotesingle{})}
 
+Jeśli admin jest zalogowany ma dostęp do wielu funkcjonalności 
+
+Definition at line 69 of file dodajpytania.\+php.
+
 \mbox{\Hypertarget{dodajpytania_8php_a7c21e3c4bba82f6861adfb4bf31addb0}\label{dodajpytania_8php_a7c21e3c4bba82f6861adfb4bf31addb0}} 
 \index{dodajpytania.php@{dodajpytania.php}!while@{while}}
 \index{while@{while}!dodajpytania.php@{dodajpytania.php}}
 \doxysubsubsection{\texorpdfstring{while}{while}}
 {\footnotesize\ttfamily while(\$r=mysqli\+\_\+fetch\+\_\+row(\$result))}
+
+dopóki jest jakaś wartość dostępna w bazie 
+
+Definition at line 104 of file dodajpytania.\+php.
 
