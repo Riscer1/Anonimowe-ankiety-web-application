@@ -73,6 +73,9 @@ Konto administratora oprócz podstawowych funkcjonalności jakie posiada zwykły
 • dodawanie pytań i odpowiedzi do ankiet,
 
 • sprawdzenie którzy użytkownicy wypełnili ankiety.
+## Dokumentacja
+
+[/html/index.html](/html/index.html)
 
 ## Licencja
 
